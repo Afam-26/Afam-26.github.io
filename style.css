@@ -4,8 +4,8 @@
     --borderColor:#c1c1c1;    
     --majorText:black;
     --minorText:#4b5156;
-    --themeDotBorder:#2429e  
-    --buttonColor:black
+    --themeDotBorder:#2429e;  
+    
        
 }
 
@@ -219,6 +219,12 @@ h6 { font-size: 16px;}
     
 }
 
+@media (max-width:768px){
+    .right-column{
+        padding-left: 4rem;
+    }
+}
+
 #preview{
     width: 300px;
     border: 1.5px solid #17a2b8;
@@ -226,23 +232,78 @@ h6 { font-size: 16px;}
     padding: 15px;
 }
 
+/* About section */
+
+.float-left{
+    float: left;
+   
+    padding-bottom: 15px;
+}
+
+.about-side{    
+    margin-left: 15px;
+    padding-left: 15rem;
+    padding-top: 15px;
+
+}
+
+.about-side::after {
+    content: "";
+    clear: both;
+   display: table;
+}
+
 /* Project Styling */
 
-#project-pic{
-    display: grid;
-    grid-template-columns: 1fr, 1fr;
-    grid-template-rows: 3em 30em;
-    grid-template-areas:
-        'project-pic' 'project-pic' /*   not working */
-   ;
-
+#project-pic-1{  
+    padding-left: 25px;
     height: 200px;
     width: 200px;
-    
-
-    padding-top: 50px;
+    padding-top: 15px;
     padding-bottom: 50px;
+
+    float: left;
 }
+
+
+#project-pic-2{
+  
+    padding-left: 15px;
+    height: 200px;
+    width: 200px;
+    padding-top: 15px;
+    padding-bottom: 50px;
+
+    float: left;
+}
+
+
+#project-pic-3{
+  
+    padding-left: 15px;
+    height: 200px;
+    width: 200px;
+    padding-top: 15px;
+    padding-bottom: 50px;
+
+    float: left;
+}
+
+
+
+#project-pic-4{
+  
+    padding-left: 15px;
+    height: 200px;
+    width: 200px;
+    padding-top: 15px;
+    padding-bottom: 50px;
+
+    float: left;
+}
+
+
+
 
 /* Contact styling */
 
