@@ -5,6 +5,8 @@
     --majorText:black;
     --minorText:#4b5156;
     --themeDotBorder:#2429e;  
+    --previewBg:rgb(251, 249, 243, 0.8);
+    --submitBtn:black
     
        
 }
@@ -184,6 +186,7 @@ h6 { font-size: 16px;}
 
 .theme-dot:hover{
     border-width: 5px;
+
 }
 
 #light-mode{
@@ -204,7 +207,7 @@ h6 { font-size: 16px;}
 
 #settings-note{
     font: 12px;
-    font-style: italic; /* not working */
+    font-style: italic; 
     text-align: center;
 }
 
@@ -228,8 +231,15 @@ h6 { font-size: 16px;}
 #preview{
     width: 300px;
     border: 1.5px solid #17a2b8;
-    background-color: #faebd7;
+    background-color: var(--previewBg);
     padding: 15px;
+}
+
+.corner{
+    width: 7px;
+    height: 7px;
+    border-radius: 50px;
+    background-color: #fff;
 }
 
 /* About section */
