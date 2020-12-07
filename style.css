@@ -286,6 +286,12 @@ h6 { font-size: 16px;}
 
 }
 
+.about-me{
+    padding-left: 50px;
+    
+}
+
+
 #skills{
     display: flex;
     justify-content: space-evenly;
@@ -300,7 +306,7 @@ h6 { font-size: 16px;}
 }
 
 #social_img{
-    width: 60%;
+    width: 50%;
 }
 
 /* 
