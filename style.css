@@ -162,7 +162,7 @@ h6 { font-size: 16px;}
     margin: 0 auto;
 
     height: 200px;
-    width: 200px;
+    width: 250px;
     object-fit: cover;
     border: 2px solid var(--borderColor);
 }
@@ -233,13 +233,6 @@ h6 { font-size: 16px;}
     }
 }
 
-/* #preview-shadow{
-    background-color: var(--preview-shadow);
-    width: 300px;
-    height: 180px;
-    padding-left:30px;
-    padding-right: 30px;
-} */
 
 #preview{
     width: 300px;
@@ -294,7 +287,7 @@ h6 { font-size: 16px;}
 
 .about-me{
     padding-left: 50px;
-    
+        
 }
 
 
