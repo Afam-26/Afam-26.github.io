@@ -1,7 +1,8 @@
 let themeDots = $('.theme-dot')
 let theme = localStorage.getItem('theme')
 
-// theme option function
+
+// theme option section
 
 function setTheme(mode){
     if(mode == 'light'){       
@@ -39,4 +40,6 @@ if(theme == null) {
 }else{
     setTheme(theme)
 }
+
+
 
