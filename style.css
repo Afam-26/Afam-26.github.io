@@ -227,11 +227,11 @@ h6 { font-size: 16px;}
     
 }
 
-@media (max-width:768px){
+/* @media (max-width:768px){
     .right-column{
         padding-left: 4rem;
     }
-}
+} */
 
 
 #preview{
@@ -403,5 +403,10 @@ h6 { font-size: 16px;}
     .links {
         margin: auto;
         
+    }
+
+    .right-column{
+        /* padding-left: 4rem; */
+        margin: auto;
     }
 }
