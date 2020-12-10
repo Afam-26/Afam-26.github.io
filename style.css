@@ -281,8 +281,7 @@ h6 { font-size: 16px;}
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     padding-top: 50px;
     padding-bottom: 50px;
-    gap: 100px;
-
+    gap: 100px;   
 }
 
 .about-me{
@@ -298,7 +297,7 @@ h6 { font-size: 16px;}
     
 }
 
-.social-link{
+.link{
     display: grid;
     align-content: center;
     text-align: center;
@@ -400,5 +399,10 @@ h6 { font-size: 16px;}
             'left-column'
             'right-column'
         ;
+    }
+    .links {
+        margin: auto;
+        border: solid blue 1px;
+
     }
 }
