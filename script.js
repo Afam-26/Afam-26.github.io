@@ -6,20 +6,20 @@ let theme = localStorage.getItem('theme')
 
 function setTheme(mode){
     if(mode == 'light'){       
-        $('#theme-style').attr('href', 'style.css') 
+        $('#theme-style').attr('href', './css/style.css') 
     }
 
     if(mode == 'blue'){
-        $('#theme-style').attr('href', 'blue.css') 
+        $('#theme-style').attr('href', './css/blue.css') 
         
     }
 
     if(mode == 'green'){
-       $('#theme-style').attr('href', 'green.css') 
+       $('#theme-style').attr('href', './css/green.css') 
     }
 
     if(mode == 'purple'){        
-        $('#theme-style').attr('href', 'purple.css')         
+        $('#theme-style').attr('href', './css/purple.css')         
     }
 
     for (var index=0; themeDots.length > index; index++) {
